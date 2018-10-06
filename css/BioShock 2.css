@@ -3,7 +3,6 @@
 body:after {
 	display: none;
 	content: url(../img/Background-img/Bioshock2.jpg)
-		     url(../img/Meta-Score/Bioshock 2-score.jpg)
 }
 
 .back {
