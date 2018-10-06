@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: "Whitney Book";
+	src:url(../font/Whitney-Book.ttf);
+}
+
+/* Header Settings */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	z-index: 999999;
+	background-color: rgba(240, 245, 243, 0.8);
+  /* Force Hardware Acceleration */
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.header-left {
+	padding-left: 10px;
+}
+
+.header-right {
+	padding: 20px;
+}
+
+.links li {
+	margin: 25px;
+}
+
+.links ul {
+	display: inline-flex;
+	list-style: none;
+	padding: 0px;
+}
+
+.links a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+	font-family: "Whitney Book";
+}
+
+.links a:hover {
+	color:crimson;
+}
+
+/*End settings of header*/
+
+.back {
+  background-position: center center;
+  background-size: cover;
+  font-size: 45px;
+  font-weight: bold;
+  color:aliceblue;
+  text-align: center;
+  padding-top: 150px;
+  opacity: 1;
+  height: 400px;
+}
+
+.text2 {
+	font-size: 25px;
+}
+
+/*Description Data*/
+
+.description {
+	font-family: "Whitney Book";
+	font-size: 25px;
+	color: dimgrey;
+	font-weight: 400;
+}
+
+.data-description {
+	font-family:"Whitney Book";
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.developer-description {
+	font-family: "Whitney Book";
+	font-size: 20px;
+}
+
+
+.developer-description a {
+	text-decoration: none;
+}
+
+.des {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	margin-top: 30px;
+}
+
+.box-description {
+	display: flex;
+}
+
+.col-1 {
+	flex: 1 20% ;
+}
+
+.col-2 {
+	flex: 2 50%;
+}
+
+/*Game Description*/
+.game-description {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	line-height: 30px;
+	font-size: 20px;
+	text-align: justify;
+} 
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+
+/*Slider Settings*/
+
+#slider-wrap{ 
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#active-slide {
+    width: 100%;
+    display: table;
+    position: relative;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#slider{
+    position: relative;
+    width: calc(100% * 5);
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.slide{
+    width: calc(100%/5);
+    list-style: none;
+    display: inline;
+    float: left;
+}
+
+.slide img {
+    width:100%;
+	height: 650px;
+}
+
+.Radio-But{
+    margin-top:10px;
+    text-align:center;
+}
+
+.Radio-But .ctrl-select {
+    margin:2px;
+    display:inline-block;
+    width:16px;
+    height:16px;
+    overflow:hidden;
+    text-indent:-9999px;
+    background: url(../img/slider/radioBg.png) center bottom no-repeat;
+}
+
+.Radio-But .ctrl-select:hover {
+    cursor:pointer;
+    background-position:center center;
+}
+
+.Radio-But .ctrl-select.active {
+    background-position:center top;
+}
+
+#prewbutton, #nextbutton {
+    display:block;
+    width:40px;
+    height:100%;
+    position:absolute;
+    top:0;
+    overflow:hidden;
+    text-indent:-999px;
+    background: url(../img/slider/arrowBg.png) left center no-repeat;
+    opacity:0.5;
+    z-index:3;
+    outline:none !important;
+}
+
+#prewbutton {
+    left:10px;
+}
+
+#nextbutton {
+    right:10px;
+    background:url(../img/slider/arrowBg.png) right center no-repeat;
+}
+
+#prewbutton:hover, #nextbutton:hover {
+    opacity:1;
+}
+
+/*width browser video */
+
+.center2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.box2 {
+	display: flex;
+}
+
+.video {
+	display: flex;
+	flex: 1 50%;
+	justify-content: flex-start;
+	width: 600px;
+	padding-top: 40px;
+	padding-bottom: 40px; 
+}
+
+.buy {
+	display: flex;
+	flex: 2 60%;
+	justify-content: center;
+	align-items: center;
+}
+
+.buy img {
+	margin: 15px;
+}
+
+ a.button {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+
+a.button:hover {
+	background: rgb(53, 167, 110);
+}
+
+a.button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+
+.buy-list ul {
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.buy-list li {
+	padding: 10px;
+	margin: 10px;
+}
+
+.buy-list h2 {
+	position: relative;
+	left: 20px;
+	bottom: 20px;
+	font-family: "Whitney Book";
+	font-size: 25px;
+	color:dimgrey;
+}
+
+.buy p {
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid;
+	border-radius: 25px;
+}
+
+header.is-hidden {
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+}

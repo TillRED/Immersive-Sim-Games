@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "Whitney Book";
+	src: url(../font/Whitney-Book.ttf);
+}
+
+body {
+	background-color: #ECF0F1;
+}
+
+/* Header Settings */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(240, 245, 243, 0.8);
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	z-index: 999999;
+  /* Force Hardware Acceleration */
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.header-left {
+	padding-left: 10px;
+}
+
+.header-right {
+	padding: 20px;
+}
+
+.links li {
+	margin: 25px;	
+}
+
+.links ul {
+	display: inline-flex;
+}
+
+.links a {
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+	font-family: "Whitney Book";
+}
+
+.links a:hover {
+	color:crimson;
+}
+
+/*End settings of header*/
+
+@media (max-width: 1000px) {
+
+	.header-left {
+	 padding-top: 5px;
+	}
+	
+	.header-right {
+		padding: 0px;
+		margin-left: 15px;
+	}
+	
+	.links li {
+		padding-left: 15px;
+		margin: 10px;
+	}
+}
+.games {
+	padding-top: 120px;
+	text-align: center;
+}
+
+.bioshock,
+.dishonored,
+.bioshock-2,
+.dishonored-2,
+.system-shock-2,
+.thief,
+.thief-2,
+.thief-3,
+.Deus-Ex,
+.Deus-Ex-2,
+.Deus-Ex-HR,
+.System-shock,
+.Deus-ex-MD,
+.Arx-Fatalis,
+.Dark-Messiah,
+.Prey,
+.Bioshock-Infinite,
+.Alien-Isolation,
+.Ultima-Underworld,
+.Ultima-Underworld-2,
+.Vampire-masquerade,
+.Stalker,
+.Stalker-CoP,
+.Stalker-CS{
+	display: inline-flex;
+	margin: 25px;
+	margin-bottom: 10px;
+	max-width: 400px;
+    width: 100%;
+	height: 488px;
+	position: relative;  
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.mask p {
+  display: inline-block;
+  text-align: left;
+  width: 80%;  
+  font-family: Tahoma, serif;
+  font-size: 25px;
+  line-height: 2.25rem;
+  color: #fff;
+  transition: all .27s .27s ease-in-out;
+}
+
+.mask {
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  opacity: 0;
+  height: 100%;
+  background: #333; 
+  transform: translateY(100%);
+  transition: all .27s ease-in-out;
+}
+
+.mask::before {
+  content: '';
+  display: inline-block;
+  vertical-align: top;
+  width: 10px;
+  
+}
+
+.bioshock:hover .mask,
+.dishonored:hover .mask,
+.bioshock-2:hover .mask,
+.dishonored-2:hover .mask,
+.system-shock-2:hover .mask,
+.thief:hover .mask,
+.thief-2:hover .mask,
+.thief-3:hover .mask,
+.Deus-Ex:hover .mask,
+.Deus-Ex-2:hover .mask,
+.Deus-Ex-HR:hover .mask,
+.System-shock:hover .mask,
+.Deus-ex-MD:hover .mask,
+.Arx-Fatalis:hover .mask,
+.Dark-Messiah:hover .mask,
+.Prey:hover .mask,
+.Bioshock-Infinite:hover .mask,
+.Alien-Isolation:hover .mask,
+.Ultima-Underworld:hover .mask,
+.Ultima-Underworld-2:hover .mask,
+.Vampire-masquerade:hover .mask,
+.Stalker:hover .mask,
+.Stalker-CoP:hover .mask,
+.Stalker-CS:hover .mask{
+ opacity: .85;
+ transform: translateY(0%);
+}
+
+.bioshock:hover .mask p,
+.dishonored:hover .mask p,
+.bioshock-2:hover .mask p,
+.dishonored-2:hover .mask p,
+.system-shock-2:hover .mask p,
+.thief:hover .mask p,
+.thief-2:hover .mask p,
+.thief-3:hover .mask p,
+.Deus-Ex:hover .mask p,
+.Deus-Ex-2:hover .mask p,
+.Deus-Ex-HR:hover .mask p,
+.System-shock:hover .mask p,
+.Deus-ex-MD:hover .mask p,
+.Arx-Fatalis:hover .mask p,
+.Dark-Messiah:hover .mask p,
+.Prey:hover .mask p,
+.Bioshock-Infinite:hover .mask p,
+.Alien-Isolation:hover .mask p,
+.Ultima-Underworld:hover .mask p,
+.Ultima-Underworld-2:hover .mask p,
+.Vampire-masquerade:hover .mask p,
+.Stalker:hover .mask p,
+.Stalker-CoP:hover .mask p,
+.Stalker-CS:hover .mask p{
+	transform: translateX(15px);
+}
+
+/*Auto Hiding of header*/
+header.is-hidden {
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+footer {
+text-align: center;
+background-color: rgba(240, 245, 243, 0.8);
+
+}
+
+.ft {
+	padding: 20px;
+	font-size: 20px;
+	color: black;
+}
+
+.ft a {
+	font-family: "Whitney Book";
+	color: black;
+}
