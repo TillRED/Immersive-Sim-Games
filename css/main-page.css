@@ -200,7 +200,7 @@ header {
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
 .Stalker-CS:hover .mask p{
-	transform: translateX(15px);
+	transform: translateX(25px);
 }
 
 /*Auto Hiding of header*/
