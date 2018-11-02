@@ -60,22 +60,7 @@ header {
 
 /*End settings of header*/
 
-@media (max-width: 1000px) {
 
-	.header-left {
-	 padding-top: 5px;
-	}
-	
-	.header-right {
-		padding: 0px;
-		margin-left: 15px;
-	}
-	
-	.links li {
-		padding-left: 15px;
-		margin: 10px;
-	}
-}
 .games {
 	padding-top: 120px;
 	text-align: center;
@@ -119,6 +104,7 @@ header {
 .mask p {
   display: inline-block;
   text-align: left;
+  margin-top: 100px;
   width: 80%;  
   font-family: Tahoma, serif;
   font-size: 25px;
