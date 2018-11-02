@@ -72,8 +72,9 @@
 	transform: translateX(5px);
 }
 	.mask p {
-		width: 70%;
-		font-size: 15px;
-		line-height: 1.50rem;
+		margin-top: 50px;
+		width: 80%;
+		font-size: 20px;
+		line-height: 1.80rem;
 	}
 }
