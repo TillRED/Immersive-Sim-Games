@@ -81,7 +81,7 @@
 
 /*for iphone 6s*/
 
-@media (min-width : 375px ) and ( max-width : 414px ){
+@media (min-width : 375px) and ( max-width : 414px){
 	header {
 		height: 50px;
 	}
