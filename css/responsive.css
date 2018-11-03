@@ -3,9 +3,9 @@
 
 /*for Ipad*/
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1366px) {
 	header {
-		height: 90px;
+		height: 80px;
 	}
 	.games img {
 		width: 240px;
@@ -78,3 +78,93 @@
 		line-height: 1.80rem;
 	}
 }
+
+/*for iphone 6s*/
+
+@media (min-width : 375px ) and ( max-width : 414px ){
+	header {
+		height: 50px;
+	}
+	
+	header img{
+		width: 250px;
+	}
+	
+	.header-right img {
+		margin-left: 20px;
+		width: 35px;
+	}
+	
+	.games img {
+		width: 240px;
+		height: 260px;
+	}
+	
+	.mask  {
+		width: 240px;
+		height: 100%;
+	}
+	
+	
+.bioshock,
+.dishonored,
+.bioshock-2,
+.dishonored-2,
+.system-shock-2,
+.thief,
+.thief-2,
+.thief-3,
+.Deus-Ex,
+.Deus-Ex-2,
+.Deus-Ex-HR,
+.System-shock,
+.Deus-ex-MD,
+.Arx-Fatalis,
+.Dark-Messiah,
+.Prey,
+.Bioshock-Infinite,
+.Alien-Isolation,
+.Ultima-Underworld,
+.Ultima-Underworld-2,
+.Vampire-masquerade,
+.Stalker,
+.Stalker-CoP,
+.Stalker-CS {
+	width: 240px;
+	height: 260px;
+}
+.bioshock:hover .mask p,
+.dishonored:hover .mask p,
+.bioshock-2:hover .mask p,
+.dishonored-2:hover .mask p,
+.system-shock-2:hover .mask p,
+.thief:hover .mask p,
+.thief-2:hover .mask p,
+.thief-3:hover .mask p,
+.Deus-Ex:hover .mask p,
+.Deus-Ex-2:hover .mask p,
+.Deus-Ex-HR:hover .mask p,
+.System-shock:hover .mask p,
+.Deus-ex-MD:hover .mask p,
+.Arx-Fatalis:hover .mask p,
+.Dark-Messiah:hover .mask p,
+.Prey:hover .mask p,
+.Bioshock-Infinite:hover .mask p,
+.Alien-Isolation:hover .mask p,
+.Ultima-Underworld:hover .mask p,
+.Ultima-Underworld-2:hover .mask p,
+.Vampire-masquerade:hover .mask p,
+.Stalker:hover .mask p,
+.Stalker-CoP:hover .mask p,
+.Stalker-CS:hover .mask p{
+	transform: translateX(5px);
+}
+	.mask p {
+		margin-top: 50px;
+		width: 80%;
+		font-size: 20px;
+		line-height: 1.80rem;
+	}
+}
+
+	
