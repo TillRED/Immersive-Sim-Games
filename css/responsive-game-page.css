@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media screen and (min-width: 360px) and (max-width: 414px){
+@media screen and (min-width : 361px) and (max-width : 414px){
 	header {
 		height: 50px;
 	}
 	
 	header img{
-		width: 250px;
+		width: 230px;
 	}
 	
 	.header-right img {
@@ -104,5 +104,102 @@
 	.loader {
 		width: 30px;
 		height: 30px;
+	}
+}
+
+@media screen and ( min-width : 415px ) and (max-width : 768px ){
+	
+	.back {
+		height: 200px;
+	}
+	
+	.back .test {
+		margin-top: -70px;
+	}
+	
+	.center {
+		width: 80%;
+	}
+	
+	#slider-wrap {
+		max-width: 90%;
+	}
+	
+	.center2 {
+		width: 80%;
+	}
+	
+	.video {
+		flex: 1 50%;
+		width: 100%;
+	}
+	
+	.slide img {
+		height: 450px;
+	}
+	
+	.buy {
+		display: flex;
+		margin-left: -650px;
+		margin-top: 400px;
+	}
+	
+	.buy-list {
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
+
+	.buy-list h2 {
+		font-size: 20px;
+	}
+	
+	.buy-list ul {
+		display: flex;
+	    flex-flow: row;
+		flex-wrap: wrap;
+	}
+	
+}
+
+@media screen and (min-width:770px) and (max-width:1024px) {
+	
+	.back {
+		height: 300px;
+	}
+	
+	.center {
+		width: 80%;
+	}
+	
+	#slider-wrap {
+		max-width: 90%;
+	}
+
+	.slide img {
+		height: 550px;
+	}
+	
+	.center2 {
+		width: 80%;
+	}
+	
+	.buy {
+		margin-left: -1000px;
+		margin-top: 400px;
+	}
+	
+	.buy-list {
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
+
+	.buy-list h2 {
+		font-size: 20px;
+	}
+	
+	.buy-list ul {
+		display: flex;
+	    flex-flow: row;
+		flex-wrap: wrap;
 	}
 }
