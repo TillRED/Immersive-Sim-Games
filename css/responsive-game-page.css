@@ -96,7 +96,7 @@
 
 /* iPads (вертикальная и горизонтальная) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
+	
 	.back {
 		height: 250px;
 	}
@@ -130,7 +130,8 @@
 
 /* Iphone 6 */
 
-@media only screen and (min-width : 375px) and (max-width : 667px) and (orientation: portrait) { 
+@media only screen and (min-width : 375px) and (max-width : 667px) and (orientation: portrait) {
+	
 	header {
 		height: 50px;
 	}
@@ -163,7 +164,7 @@
 	}
 	
 	.des {
-		margin-top: 10px;
+		margin-top: 40px;
 	}
 	
 	.box-description img {
@@ -224,6 +225,10 @@
 }
 
 @media only screen and (min-width : 375px) and (max-width : 667px) and (orientation: landscape) {
+	
+	.header-left img {
+		width: 350px;
+	}
 	.back {
 		height: 200px;
 	}
