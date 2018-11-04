@@ -1,7 +1,192 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media screen and (min-width : 361px) and (max-width : 414px){
+/* iPads (вертикальная и горизонтальная) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+	.back {
+		height: 250px;
+	}
+	
+	.back .test {
+		margin-top: -40px;
+	}
+	
+	.text{
+		font-size: 35px;
+	}
+	
+	.text2{
+		font-size: 20px;
+	}
+	.center {
+		width: 80%;
+	}
+	
+	#slider-wrap{ 
+    max-width: 80%;
+}
+	.slide img {
+    width:100%;
+	height: 450px;
+}
+	.center2 {
+		width: 80% ;
+	}
+}
+
+/* Iphone 6 */
+
+@media only screen and (min-width : 375px) and (max-width : 667px) and (orientation: portrait) { 
+	header {
+		height: 50px;
+	}
+	
+	header img{
+		width: 230px;
+	}
+	
+	.header-right img {
+		margin-left: 20px;
+		width: 35px;
+	}
+	
+	.back {
+		height: 100px;
+	}
+	
+	.back .test {
+		margin-top: -110px;
+	}
+	.text {
+		font-size: 25px;
+	}
+	.text2 {
+		font-size: 15px;
+	}
+	
+	.col-2 {
+		flex: 2 0%;
+	}
+	
+	.des {
+		margin-top: 10px;
+	}
+	
+	.box-description img {
+		width: 150px;
+	}
+	
+	.description {
+		font-size: 15px;
+	}
+	
+	.data-description {
+		font-size: 15px;
+	}
+	
+	.developer-description {
+		font-size: 15px;
+	}
+	
+	.game-description {
+		font-size: 15px;
+		line-height: 25px;
+		word-spacing: 2px;
+	}
+	
+	#slider-wrap {
+		max-width: 90%;
+	}
+
+	.slide img {
+		height: 250px;
+	}
+	
+	.video {
+		width: 90%;
+	}
+	
+	.center {
+		width: 90%;
+	}
+	
+	.center2 {
+		width: 90%;
+	}
+	
+	.buy-list h2 {
+		font-size: 15px;
+		margin-right: 0px;
+	}
+	
+	.buy-list ul {
+		flex-wrap: wrap;
+	}
+	
+	.loader {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media only screen and (min-width : 375px) and (max-width : 667px) and (orientation: landscape) {
+	.back {
+		height: 200px;
+	}
+	
+	.back .test {
+		margin-top: -40px;
+	}
+	
+	.text {
+		font-size: 35px;
+	}
+	
+	.text2 {
+		font-size: 20px;
+	}
+	
+	.center {
+		width: 80%;
+	}
+	
+	.center2 {
+		width: 90%;
+	}
+	
+	.box-description img {
+		width: 190px;
+	}
+	
+	.description {
+		font-size: 25px;
+	}
+	
+	.data-description {
+		font-size: 20px;
+	}
+	
+	.developer-description {
+		font-size: 18px;
+	}
+	
+	.game-description {
+		font-size: 18px;
+		line-height: 25px;
+		word-spacing: 3px;
+	}
+	
+	#slider-wrap {
+		max-width: 80%;
+	}
+	
+	.slide img {
+		height: 350px;
+	}
+}
+/*
+@media screen and (min-width : 375px) and (max-width : 414px){
 	header {
 		height: 50px;
 	}
@@ -107,7 +292,7 @@
 	}
 }
 
-@media screen and ( min-width : 415px ) and (max-width : 768px ){
+@media screen and ( min-width : 414px ) and (max-width : 736px ){
 	
 	.back {
 		height: 200px;

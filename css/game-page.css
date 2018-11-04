@@ -246,21 +246,9 @@ header {
 .video {
 	display: flex;
 	flex: 1 50%;
-	justify-content: flex-start;
-	width: 600px;
+	justify-content: center;
 	padding-top: 40px;
 	padding-bottom: 40px; 
-}
-
-.buy {
-	display: flex;
-	flex: 2 60%;
-	justify-content: center;
-	align-items: center;
-}
-
-.buy img {
-	margin: 15px;
 }
 
  a.button {
@@ -283,11 +271,11 @@ a.button:active {
   box-shadow: 0 3px rgb(33,147,90) inset;
 }
 
-
 .buy-list ul {
-	display: inline-flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin-bottom: 30px;
 }
 
 .buy-list li {
@@ -296,9 +284,10 @@ a.button:active {
 }
 
 .buy-list h2 {
-	position: relative;
-	left: 20px;
-	bottom: 20px;
+	display: flex;
+	justify-content: center;
+	margin-right: 300px;
+	margin-bottom: 20px;
 	font-family: "Whitney Book";
 	font-size: 25px;
 	color:dimgrey;
