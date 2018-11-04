@@ -25,7 +25,8 @@
 	}
 	
 	.back .test {
-		margin-top: -160px;
+		margin-top: -140px;
+		line-height: 20px;
 	}
 	
 	.text {
