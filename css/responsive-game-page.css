@@ -1,20 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* test */
+/* Iphone 5*/
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
 	header {
 		height: 45px;
 	}
 	
 	header img{
-		height: 27px;
+		height: 25px;
 		width: 95%;
 	}
 	
 	.header-right img {
-		width: 25px;
-		height: 25px;
+		width: 30px;
+		height: 30px;
 	}
 	
 	.back {
@@ -80,11 +80,12 @@
 	
 	.buy-list h2 {
 		font-size: 15px;
-		margin-right: 120px;
+		margin-right: 110px;
 	}
 	
 	.buy-list ul{
-		flex-direction: column; 
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 	
 } 
