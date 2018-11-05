@@ -65,9 +65,10 @@
 		margin-top: -25px;
 	}
 	
-	.game-description {
+	.game-description p {
 		font-size: 15px;
 		line-height: 25px;
+		word-spacing: 1px;
 	}
 	
 	#slider-wrap {
@@ -75,7 +76,7 @@
 	}
 	
 	.slide img {
-		height: 200px;
+		max-height: 200px;
 	}
 	
 	.video {
@@ -92,8 +93,49 @@
 		flex-wrap: wrap;
 	}
 	
+	.loader {
+		width: 25px;
+		height: 25px;
+		border: 5px solid white;
+		border-top-color: green;
+	}
 } 
 
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+	
+	.game-description p {
+		word-wrap: break-word;
+	}
+	
+	.back .test {
+		margin-top: -150px;
+	}
+	
+	.slide img {
+	   max-height: 250px;
+	}
+	
+	.video {
+		width: 80%;
+	}
+	
+	.buy-list ul {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	
+	.buy-list h2 {
+		font-size: 20px;
+		margin-right: 200px;
+	}
+	
+	.loader {
+		width: 45px;
+		height: 45px;
+		border: 5px solid white;
+		border-top-color: green;
+	}
+}
 
 /* iPads (вертикальная и горизонтальная) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -220,8 +262,8 @@
 	}
 	
 	.loader {
-		width: 30px;
-		height: 30px;
+		width: 20px;
+		height: 20px;
 	}
 }
 
