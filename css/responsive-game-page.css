@@ -85,7 +85,7 @@
 	
 	.buy-list h2 {
 		font-size: 15px;
-		margin-right: 110px;
+		margin-right: 0px;
 	}
 	
 	.buy-list ul{
@@ -96,20 +96,12 @@
 	.loader {
 		width: 25px;
 		height: 25px;
-		border: 5px solid white;
+		border: 4px solid white;
 		border-top-color: green;
 	}
 } 
 
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
-	
-	.game-description p {
-		word-wrap: break-word;
-	}
-	
-	.back .test {
-		margin-top: -150px;
-	}
 	
 	.slide img {
 	   max-height: 250px;
