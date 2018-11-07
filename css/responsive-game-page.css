@@ -69,7 +69,6 @@
 		font-size: 15px;
 		line-height: 25px;
 		word-spacing: 1px;
-		text-align: left;
 	}
 	
 	#slider-wrap {
@@ -112,10 +111,6 @@
 		width: 80%;
 	}
 	
-	.game-description p {
-		text-align: left;
-	}
-	
 	.buy-list ul {
 		flex-direction: wrap;
 		flex-wrap: wrap;
@@ -154,10 +149,6 @@
 	}
 	.center {
 		width: 80%;
-	}
-	
-	.game-description p {
-		text-align: left;
 	}
 	
 	#slider-wrap{ 
@@ -237,10 +228,6 @@
 	
 	.developer-description {
 		font-size: 15px;
-	}
-	
-	.game-description p {
-		text-align: left;
 	}
 	
 	.game-description {
