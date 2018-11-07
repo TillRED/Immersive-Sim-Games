@@ -69,6 +69,7 @@
 		font-size: 15px;
 		line-height: 25px;
 		word-spacing: 1px;
+		text-align: left;
 	}
 	
 	#slider-wrap {
@@ -84,7 +85,7 @@
 	}
 	
 	.buy-list h2 {
-		font-size: 15px;
+		font-size: 20px;
 		margin-right: 0px;
 	}
 	
@@ -111,8 +112,12 @@
 		width: 80%;
 	}
 	
+	.game-description p {
+		text-align: left;
+	}
+	
 	.buy-list ul {
-		flex-direction: row;
+		flex-direction: wrap;
 		flex-wrap: wrap;
 	}
 	
@@ -151,6 +156,10 @@
 		width: 80%;
 	}
 	
+	.game-description p {
+		text-align: left;
+	}
+	
 	#slider-wrap{ 
     max-width: 80%;
 }
@@ -160,6 +169,18 @@
 }
 	.center2 {
 		width: 80% ;
+	}
+	
+	.buy-list h2 {
+		font-size: 20px;
+		margin-left: 270px;
+	}
+	
+	.loader {
+		height: 50px;
+		width: 50px;
+		border: 6px solid white;
+		border-top-color: green;
 	}
 }
 
@@ -218,6 +239,10 @@
 		font-size: 15px;
 	}
 	
+	.game-description p {
+		text-align: left;
+	}
+	
 	.game-description {
 		font-size: 15px;
 		line-height: 25px;
@@ -245,7 +270,7 @@
 	}
 	
 	.buy-list h2 {
-		font-size: 15px;
+		font-size: 20px;
 		margin-right: 0px;
 	}
 	
