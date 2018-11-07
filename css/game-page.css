@@ -126,6 +126,10 @@ header {
 	text-align: justify;
 } 
 
+.game-description p {
+	text-align: left;
+}
+
 .center {
 	margin-left: auto;
 	margin-right: auto;
