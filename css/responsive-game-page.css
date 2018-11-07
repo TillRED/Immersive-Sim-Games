@@ -71,12 +71,8 @@
 		word-spacing: 1px;
 	}
 	
-	#slider-wrap {
+	.slider-wrap {
 		max-width: 90%;
-	}
-	
-	.slide img {
-		max-height: 200px;
 	}
 	
 	.video {
@@ -102,10 +98,6 @@
 } 
 
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
-	
-	.slide img {
-	   max-height: 250px;
-	}
 	
 	.video {
 		width: 80%;
@@ -151,13 +143,6 @@
 		width: 80%;
 	}
 	
-	#slider-wrap{ 
-    max-width: 80%;
-}
-	.slide img {
-    width:100%;
-	height: 450px;
-}
 	.center2 {
 		width: 80% ;
 	}
@@ -235,15 +220,7 @@
 		line-height: 25px;
 		word-spacing: 2px;
 	}
-	
-	#slider-wrap {
-		max-width: 90%;
-	}
 
-	.slide img {
-		height: 250px;
-	}
-	
 	.video {
 		width: 90%;
 	}
@@ -322,13 +299,6 @@
 		word-spacing: 3px;
 	}
 	
-	#slider-wrap {
-		max-width: 80%;
-	}
-	
-	.slide img {
-		height: 290px;
-	}
 	
 	.buy-list h2 {
 		margin-right: 20px;
