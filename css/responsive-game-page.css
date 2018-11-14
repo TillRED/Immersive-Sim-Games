@@ -250,8 +250,12 @@
 
 @media only screen and (min-width : 375px) and (max-width : 667px) and (orientation: landscape) {
 	
-	.header-left img {
-		width: 350px;
+	header {
+		height: 60px;
+	}
+	
+	header img {
+		height: 45px;
 	}
 	.back {
 		height: 200px;
