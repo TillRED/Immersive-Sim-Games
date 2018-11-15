@@ -206,7 +206,6 @@ a.button:active {
 .buy-list h2 {
 	display: flex;
 	justify-content: center;
-	margin-right: 300px;
 	margin-bottom: 20px;
 	font-family: "Whitney Book";
 	font-size: 25px;
