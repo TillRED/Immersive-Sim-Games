@@ -60,7 +60,8 @@
 .Vampire-masquerade,
 .Stalker,
 .Stalker-CoP,
-.Stalker-CS {
+.Stalker-CS,
+.The-Occupation{
 	width: 260px;
 	height: 290px;
 }
@@ -87,7 +88,8 @@
 .Vampire-masquerade:hover .mask p,
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
-.Stalker-CS:hover .mask p{
+.Stalker-CS:hover .mask p,
+.The-Occupation:hover .mask p{
 	transform: translateX(5px);
 }
 	.mask p {
@@ -149,7 +151,8 @@
 .Vampire-masquerade,
 .Stalker,
 .Stalker-CoP,
-.Stalker-CS {
+.Stalker-CS,
+.The-Occupation{
 	display: inline-flex;
 	width: 200px;
 	height: 230px;
@@ -177,7 +180,8 @@
 .Vampire-masquerade:hover .mask p,
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
-.Stalker-CS:hover .mask p{
+.Stalker-CS:hover .mask p,
+.The-Occupation:hover .mask p{
 	transform: translateX(5px);
 }
 	.mask p {
@@ -256,7 +260,8 @@
 .Vampire-masquerade,
 .Stalker,
 .Stalker-CoP,
-.Stalker-CS {
+.Stalker-CS,
+.The-Occupation{
 	display: inline-flex;
 	width: 260px;
 	height: 290px;
@@ -284,7 +289,8 @@
 .Vampire-masquerade:hover .mask p,
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
-.Stalker-CS:hover .mask p{
+.Stalker-CS:hover .mask p,
+.The-Occupation:hover .mask p{
 	transform: translateX(5px);
 }
 	.mask p {
@@ -336,7 +342,8 @@
 .Vampire-masquerade,
 .Stalker,
 .Stalker-CoP,
-.Stalker-CS {
+.Stalker-CS,
+.The-Occupation{
 	display: inline-flex;
 	width: 260px;
 	height: 290px;
@@ -364,7 +371,8 @@
 .Vampire-masquerade:hover .mask p,
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
-.Stalker-CS:hover .mask p{
+.Stalker-CS:hover .mask p,
+.The-Occupation:hover .mask p{
 	transform: translateX(5px);
 }
 	.mask p {
