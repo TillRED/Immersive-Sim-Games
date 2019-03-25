@@ -89,7 +89,8 @@ header {
 .Vampire-masquerade,
 .Stalker,
 .Stalker-CoP,
-.Stalker-CS{
+.Stalker-CS,
+.The-Occupation{
 	display: inline-flex;
 	margin: 25px;
 	margin-bottom: 10px;
@@ -157,7 +158,8 @@ header {
 .Vampire-masquerade:hover .mask,
 .Stalker:hover .mask,
 .Stalker-CoP:hover .mask,
-.Stalker-CS:hover .mask{
+.Stalker-CS:hover .mask,
+.The-Occupation:hover .mask{
  opacity: .85;
  transform: translateY(0%);
 }
@@ -185,7 +187,8 @@ header {
 .Vampire-masquerade:hover .mask p,
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
-.Stalker-CS:hover .mask p{
+.Stalker-CS:hover .mask p,
+.The-Occupation:hover .mask p{
 	transform: translateX(25px);
 }
 
