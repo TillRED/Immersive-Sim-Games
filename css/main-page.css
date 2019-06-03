@@ -90,7 +90,8 @@ header {
 .Stalker,
 .Stalker-CoP,
 .Stalker-CS,
-.The-Occupation{
+.The-Occupation,
+.Pathologic-2 {
 	display: inline-flex;
 	margin: 25px;
 	margin-bottom: 10px;
@@ -159,7 +160,8 @@ header {
 .Stalker:hover .mask,
 .Stalker-CoP:hover .mask,
 .Stalker-CS:hover .mask,
-.The-Occupation:hover .mask{
+.The-Occupation:hover .mask,
+.Pathologic-2:hover .mask{
  opacity: .85;
  transform: translateY(0%);
 }
@@ -188,7 +190,8 @@ header {
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
 .Stalker-CS:hover .mask p,
-.The-Occupation:hover .mask p{
+.The-Occupation:hover .mask p,
+.Pathologic-2:hover .mask p{
 	transform: translateX(25px);
 }
 

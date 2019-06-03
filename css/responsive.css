@@ -61,7 +61,8 @@
 .Stalker,
 .Stalker-CoP,
 .Stalker-CS,
-.The-Occupation{
+.The-Occupation,
+.Pathologic-2{
 	width: 260px;
 	height: 290px;
 }
@@ -89,7 +90,8 @@
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
 .Stalker-CS:hover .mask p,
-.The-Occupation:hover .mask p{
+.The-Occupation:hover .mask p,
+.Pathologic-2:hover .mask p{
 	transform: translateX(5px);
 }
 	.mask p {
@@ -152,7 +154,8 @@
 .Stalker,
 .Stalker-CoP,
 .Stalker-CS,
-.The-Occupation{
+.The-Occupation,
+.Pathologic-2{
 	display: inline-flex;
 	width: 200px;
 	height: 230px;
@@ -181,7 +184,8 @@
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
 .Stalker-CS:hover .mask p,
-.The-Occupation:hover .mask p{
+.The-Occupation:hover .mask p,
+.Pathologic-2:hover .mask p{
 	transform: translateX(5px);
 }
 	.mask p {
@@ -261,7 +265,8 @@
 .Stalker,
 .Stalker-CoP,
 .Stalker-CS,
-.The-Occupation{
+.The-Occupation,
+.Pathologic-2{
 	display: inline-flex;
 	width: 260px;
 	height: 290px;
@@ -290,7 +295,8 @@
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
 .Stalker-CS:hover .mask p,
-.The-Occupation:hover .mask p{
+.The-Occupation:hover .mask p,
+.Pathologic-2:hover .mask p{
 	transform: translateX(5px);
 }
 	.mask p {
@@ -343,7 +349,8 @@
 .Stalker,
 .Stalker-CoP,
 .Stalker-CS,
-.The-Occupation{
+.The-Occupation,
+.Pathologic-2{
 	display: inline-flex;
 	width: 260px;
 	height: 290px;
@@ -372,7 +379,8 @@
 .Stalker:hover .mask p,
 .Stalker-CoP:hover .mask p,
 .Stalker-CS:hover .mask p,
-.The-Occupation:hover .mask p{
+.The-Occupation:hover .mask p,
+.Pathologic-2:hover .mask p{
 	transform: translateX(5px);
 }
 	.mask p {
